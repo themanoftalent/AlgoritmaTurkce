@@ -15,7 +15,7 @@ Bu ödevde, öğrencilerin Google Maps üzerindeki yol bulma algoritmasını inc
 Bu adımların ardından, öğrenciler hedef konuma en uygun şekilde ulaşır.
 
 ### Son Değerlendirme
-Google Maps, kullanıcıların hedeflerine en uygun rotayı bulmalarını sağlayan güçlü bir algoritma ve kullanıcı arayüzü sunar. Bu sayede, öğrenciler de dahil olmak üzere birçok kişi günlük seyahatlerinde veya gezilerinde Google Maps'i kullanarak yol bulabilir.
+
 
 
 Add your Homework
