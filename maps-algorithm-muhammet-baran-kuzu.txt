@@ -1,0 +1,8 @@
+1- Telefonunu aç, telefon uygulamaları arasından Google Maps uygulamasına tıkla.
+2- Arama kutucuğuna hedef adresi gir.
+3- Çıkan konumlardan gidilecek doğru hedefi seç.
+4- Yol tarifi butonuna tıkla.
+5- Yürüme, toplu taşıma, araba, bisiklet seçeneklerinden kullanılacak ulaşım şeklini seç.
+6- Karşına farklı güzergah alternatifleri çıkarsa en uygun olan güzergahı seç.
+7- Başla butonuna tıkla.
+8- Harita üzerindeki görsel veya sesli yönlendirmeleri hedefe ulaşıldı sonucunu alıncaya kadar takip et.
