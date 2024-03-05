@@ -1,6 +1,11 @@
 # Türkçe Algoritma dersi
+------
 
-## Öğrencilerin Google Maps Yolu Nasıl Bulduğu
+# *Follow* on GitHub so that it will ensure you catch up with the latest assignments.
+
+------
+
+### Öğrencilerin Google Maps Yolu Nasıl Bulduğu
 
 ### Giriş
 Bu ödevde, öğrencilerin Google Maps üzerindeki yol bulma algoritmasını inceleyeceğiz.
