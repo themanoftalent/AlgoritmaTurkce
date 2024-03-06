@@ -1,6 +1,7 @@
-public class Sayitoplam{
-public static void main(string[] args){
-int sayi1,sayi2;
-int toplam=sayi1+sayi2;
-System.out.printf(" iki sayi toplami" +toplam)
-}}
+public class selamlasma {
+    public static void main(String[] args) {
+        String msg = "Selam Ali";
+        String msg1 = "Selam Ahmet";
+        System.out.printf(msg+msg1);
+    }
+}
