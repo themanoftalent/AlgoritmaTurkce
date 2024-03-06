@@ -1,0 +1,7 @@
+public class Sayitoplam{
+public static voidmain(string[] args){
+int num1 = 3;
+int num2 = 5;
+System.out.println("sayiların toplamı:" + (num1+num2));
+}
+}
