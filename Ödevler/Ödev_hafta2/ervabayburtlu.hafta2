@@ -1,0 +1,8 @@
+++i ve i++?
+a=3;
+b=++a   b=4,a=4  // ++i geçerli ifade değerlendirmeden sayı arttırılır,burada eşitlik işaretinden önce a sayısı arttırılır
+                    ve a nın arttırılmış değeri b'ye aktarılır.
+c=b++   c=4,b=5  // i++ geçerli ifade değerlendirildikten sonra sayıyı arttırır,
+                    once c= b ifadesi değerlendirilir daha sonra b sayısı arttırılır.
+
+
