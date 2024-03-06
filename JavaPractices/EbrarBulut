@@ -1,0 +1,6 @@
+public class Sayitoplam{
+public static void main(string[] args){
+int sayi1,sayi2;
+int toplam=sayi1+sayi2;
+System.out.printf(" iki sayi toplami" +toplam)
+}}
