@@ -1,0 +1,7 @@
+public class meeting{
+public static void main(string[] args){
+ string sentence1="selam sen kimsin" ;
+  string sentence2="merhaba ben emre";
+ system.out.println(sentence1 + sentence2);  
+}
+}
