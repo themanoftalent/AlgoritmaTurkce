@@ -1,0 +1,6 @@
+Difference between ++i and i++.
+++i is known as preincrement and this adds 1 to i and returns the new number.
+example: int i = 2, then ++i = 3. the new number is returned.
+
+i++ is known as post increment and this also adds 1 to i but returns i.
+example:int i=2, then i++ = 2. i is returned.
