@@ -1,0 +1,17 @@
+1-Google Mapse girin
+2-Arama barına arayacağınız adresi/mekanı yazınız
+3-Yol tarifine basınız
+4-Başlangıç noktasını seçine tıklayınız
+5-Konumunuzu seçiniz
+6-Eğer Google Mapsin konumunuzu kullanma izni yoksa{
+  6.1-Önünüze çıkan seçeneklerden "Yalnız bu sefer" olanı seçiniz
+}
+7-Yukarıdan sizin için en uygun ulaşım şeklini seçiniz
+8-Başlaya Tıklayınız
+9-Haritaya bakarak ve sesli komutları dinleyerek hedefe noktaya gidiniz
+10-Eğer Yanlış geldiyseniz 2. Adıma dönünüz
+11-Hedef noktaya vardığınızda bitire basınız
+12-Uygulamayı kapatınız
+
+Muhammed Nebi Altın
+2311502278

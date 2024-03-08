@@ -1,0 +1,8 @@
+public class Sayibolme{
+public static void main(string[] args){
+int num1 = 3;
+float num2 = 6.90;
+float result = num2/num1;
+system.out.println("sayilarin bolumu:" +result);
+}
+}
