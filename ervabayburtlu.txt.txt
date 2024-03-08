@@ -1,0 +1,12 @@
+start
+input num=150
+
+while num>0
+print num
+decrease num by 2
+
+if num>0
+continue
+
+else
+stop
