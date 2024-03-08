@@ -2,11 +2,9 @@ Analiz:
 
 - Program başlatılır, "num" isimli bir değişken tanımlanır ve "150" değeri atanır.
 
-- loop döngüsü başlatılır ve loop şartı "num" değişkeninin "0" değerinden büyük olmasıdır.
+- loop döngüsü, "num" değişkeninin "0" değerinden büyük olması şartı ile başlatılır. Değilse program sonlandırılır.
 
-- loop içerisinde "num" değişkeni ekrana yazdırılır, değişken iki azaltılır ve eğer değişken "0" değerinden büyükse loop başa döner.
-
-- Değişkenin değeri "0"a eşit veya küçük olduğunda loop dögüsü tamamlanır ve program sonlandırılır.
+- loop içerisinde; "num" değişkeni ekrana yazdırılır, değişken iki azaltılır, eğer değişken "0" değerinden büyükse loop başa döner, değişkenin değeri "0"a eşit veya küçük ise program loop'tan çıkar ve program sonlandırılır.
 
 - Program 150'den geriye doğru 150 ile 0 arası tek sayıları ekrana yazdırmak üzere yazılmış ancak bu haliyle çift sayıları yazdırmakta. Hatayı düzeltmek için loop öncesinde "num" değişkenini bir azaltabiliriz veya sayının tek olup olmadığını bir if deyimiyle doğrulayabiliriz.
 
