@@ -1,0 +1,16 @@
+i++ : değeri döndürür ardından arttırır
+++i : değeri arttırır ardından döndürür
+
+public class Example{
+    public static void main(String[] args) {
+        int i = 5;
+	System.out.println(i);
+	System.out.println(i++);
+	System.out.println(++i);
+    }
+}
+
+Çıktı
+  5
+  5
+  7

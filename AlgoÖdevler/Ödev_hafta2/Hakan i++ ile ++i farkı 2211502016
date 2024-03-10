@@ -1,0 +1,3 @@
+i++ ile ++i arasındaki fark:
+i++=önce i'yi kullanır sonra değerini bir arttırır.
+++i=önce i'nin değerini bir arttırır sonra kullanır.
