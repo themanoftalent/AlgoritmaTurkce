@@ -1,0 +1,5 @@
+++i ile i++ arasındaki fark
+
+++i  -->    i yi bir arttırarak işleme devam eder 
+
+i++ ---> eğer i üzerindebi çalışma varsa onu i üzerinden yapar ve daha sonra i yi bir attırır ve genellikle for döngüsü için kullanılır
