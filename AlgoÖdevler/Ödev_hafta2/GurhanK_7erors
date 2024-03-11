@@ -1,0 +1,22 @@
+7 Tip Eror ve örnekleri 
+
+1.Syntax Error (Sözdizimi Hatası): Programlama dili kurallarına uygun olmayan herhangi bir yapı, sözdizimi hatasıdır.
+örnek olarak: System.out.println("Merhaba dünya!")  -> noktalı virgul ";" unutulması
+                                                  
+2.Runtime Error (Çalışma Zamanı Hatası): Sistem kaynaklarının yanlış kullanımı, hafıza hataları, dosya işlemleri sırasında hatalar gibi durumlarda oluşur.
+örnek olarak: dosya bulunamadı hatası gösterilebilir
+
+3.Logic Error (Mantık Hatası): Mantık hataları kodun beklenen işlevselliği yerine farklı bir işlevsellik sunmasına veya hiçbir çıktı üretmemesine neden olur.
+örnek olarak:  System.out.println("Toplam = "+ (a/b))  -> burada sonucun toplam olarak yazılmış ancak işlem olarak bölme işlemi yapılmış
+
+4.Name Error (İsim Hatası): Bir değişkeni veya fonksiyonu tanımlamadan önce bu değişkeni veya fonksiyonu kullanmaya çalışmak bir isim hatası oluşturur.
+örnek olarak: tanımlanmamış bir fonksiyonu çağırmak
+
+5.Type Error (Tip Hatası): Bir programın çalışması sırasında, beklenmeyen bir veri tipiyle bir işlem yapılması durumunda ortaya çıkan bir hata türüdür.
+örnek olarak: Bir string ile integer veriyi toplamaya çalışmak bu hataya neden olur
+
+6.Index Error (İndeks Hatası): Bu hata, belirtilen indeksin geçerli olmadığı veya veri yapısının belirtilen indeksi içermediği durumlarda meydana gelir.
+örnek olarak: dizi boyutu 5 olan bir diziden 6. elemanı istemek
+
+7.Attribute Error (Özellik Hatası): Bir nesne üzerinde mevcut olmayan bir özelliği çağırmak veya mevcut olmayan bir metodu kullanmaya çalışmak bir Attribute Error'a neden olur.
+örnek olarak: Çıkarma metodu olmadan çıkarma metodunu çağırmak
