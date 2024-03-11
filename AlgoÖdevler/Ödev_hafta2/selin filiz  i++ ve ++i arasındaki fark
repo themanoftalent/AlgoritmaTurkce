@@ -1,0 +1,14 @@
+i++ ve ++i arasındaki fark
+++i =>i' nin değerini bir arttıracak ve artan değeri döndürecektir.
+i++ =>i' nin değerini arttıracaktır ama arttırmadan önce tuttuğum orijinal değeri döndürecektir.
+#include<iostream>
+using namespace std;
+int main(){
+ int i=10;
+ cout<<"i="<<i++<<endl;//a=10
+ cout<<"i="<<i<<endl;//a=11
+ cout<<"i="<<++i<<endl;//a=12
+cout<<"a="<<a<<endl;//a=12
+
+      return 0;
+}
