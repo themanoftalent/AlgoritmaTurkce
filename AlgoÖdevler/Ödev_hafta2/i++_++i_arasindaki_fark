@@ -1,0 +1,8 @@
+i++ => önce i değeri kullanılır daha sonra 1 birim artırılır
+++i => i değeri 1 birim artırılarak kullanılır
+örnek olarak:
+int a=3;
+a=i++ =>a=3,i=4
+int b=3;
+b=++i =>b=4,i=4
+burçin evrener 2211502061

@@ -1,0 +1,9 @@
+i++ (postfix increment): Bu operatör, i'nin değerini kullanır ve daha sonra i'yi bir artırır. Yani, i'nin kullanıldığı ifadenin değeri, i'nin mevcut değeri olur ve daha sonra i bir artar. 
+
+
+
+++i (prefix increment): Bu operatör, i'yi bir artırır ve daha sonra i'nin değerini kullanır. Yani, i'yi artırmadan önce mevcut değerini kullanır. 
+
+
+
+Bu fark, genellikle bir ifade içinde i'nin değerini kullanmadan önce veya sonra artırılması gerektiğine bağlı olarak tercih edilir

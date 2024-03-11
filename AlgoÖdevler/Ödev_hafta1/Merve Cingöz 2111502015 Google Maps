@@ -1,0 +1,54 @@
+                                     MERVE CİNGÖZ 2111502015
+FATMA ANA KYK KIZ ÖĞRENCİ YURDU’NDAN BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ’NE GİTME ALGORİTMASI  
+
+1-) Uyan.
+2-) Yorganı üzerinden kaldır.
+3-) Sola doğru ayaklarını kaydır ve yere bas.
+4-) Lavaboya girmek için 100 m düz ilerle.
+5-) Daha sonra sola dön.
+6-) Musluğun kapağını sola doğru çevir.
+7-) Yüzünü akan su ile yıka.
+8-)Musluğu kapat.
+9-) Sağ kolunu uzatıp havluyu al ve yüzünü yıka.
+10-) Havluyu tekrar yerine as.
+11-) Üzerini değiştirmek için sağa dön ve giysi dolabına doğru yürü.
+12-) Giysi dolabının kapağını aç.
+13-) Bir kazak ve bir pantolon al.
+14-) Kazak ve pantolonu üzerine giy.
+15-) Sola dönüp sandalyenin üzerindeki çantayı al.
+16-) Tekrar sağa dönüp odanın kapısına doğru ilerle.
+17-) Kapının kolunu bük.
+18-) Kapıyı itip odadan dışarı çık.
+19-) Sağ tarafa dön.
+20-) 500m koridor boyunca yürü.
+21-) Merdivenlerden aşağı in.
+22-) Sola doğru dön.
+23-) Yurt kapısından çıkışa doğru yürü.
+24-) Güvenliğe gelince dur.
+25-) Parmağını parmak izi okutucuya yerleştir.
+26-) Parmak izin okunduktan sonra sola doğru dön ve kapıdan dışarı çık.
+27-) Sağ tarafa dön ve 200m boyunca dümdüz yürü.
+28-) Hastane otoparkına geldikten sonra sağ tarafa dön ve otoparkın içine gir.
+29-) Otoparkta 50m boyunca düz ilerle.
+30-) Daha sonra sola dön.
+31-)100m boyunca düz ilerle.
+32-) Otoparkın çıkış kapısına geldikten sonra sağ tarafa dön.
+33-) Taksi durağına doğru 4 dk boyunca düz ilerle.
+34-) Taksi durağına geldikten sonra sağ tarafa dön.
+35-) 50m boyunca düz ilerle.
+36-) Sol tarafa dön.
+37-) Güvenliğe doğru 30m düz ilerle ve okulun içine gir.
+
+
+
+GOOGLE MAPS ÇALIŞMA MANTIĞI ALGORİTMASI
+-	Google maps , uydu görüntülerinden, sokak görüntülerinden ve diğer coğrafi veri kaynaklarından harita verisi  toplar.
+-	Ardından bu verileri Coğrafi Bilgi Sistemleri (GIS) kullanarak işler ve harita veritabanında depolar.
+-	 Bu verileri konum, yükseklik, yol ağları, yerel işletmeler ve diğer coğrafi özelliklerle ilişkilendirir.
+-	Kullanıcının isteğine bağlı olarak en hızlı, en kısa veya diğer kriterlere göre rota hesaplamak için yol ağı algoritmalarını kullanır.
+-	Gerçek zamanlı trafik verilerini entegre ederek kullanıcılara güzergahlarında meydana gelen trafik durumunu gösterir.
+-	Trafik bilgisi, GPS izleme, trafik sensörleri ve kullanıcıların telefonlarından toplanan verilerden elde edilir.
+
+
+
+
