@@ -1,0 +1,15 @@
+i++ ve ++i arasındaki fark 
+i++ işlemde önce "i"yi işlemde kullanır daha sonra 1 artırır.
+++i ise "i"yi 1 artırıp daha sonra işlemde kullanır.
+
+ikisi de temelde aynı işlemi yapar ancak farkını bir örnekle açıklayabiliriz;
+
+      i++ için
+      int sayi=2;
+      System.out.println(sayi++);// 2 çıktısını verir
+      System.out.println(sayi);// 3 çıktısını verir
+
+      // ++i için
+      sayi=2;
+      System.out.println(++sayi);// 2 çıktısını verir
+      System.out.println(sayi);// 2 çıktısını verir
