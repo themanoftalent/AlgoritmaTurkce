@@ -1,0 +1,8 @@
+public class Bolme {
+	public static void main(String[] args) {
+		double sayi1 = 20.2;
+		int sayi2 = 5;
+		double bolum = sayi1/sayi2;
+		System.out.println("Double sayinin int sayiya bolumu = "+bolum);
+	}
+}
