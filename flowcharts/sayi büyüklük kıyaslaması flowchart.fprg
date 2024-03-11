@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="NuzA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-11 11:00:23 &#214;&#214;"/>
+        <attribute name="created" value="TnV6QTtERVNLVE9QLVVNR1RTQjg7MjAyNC0wMy0xMTsxMDo1MTo1MiDDlsOWOzMwMjk="/>
+        <attribute name="edited" value="TnV6QTtERVNLVE9QLVVNR1RTQjg7MjAyNC0wMy0xMTsxMTowMDoyMyDDlsOWOzE7MzEzMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;sayi1, sayi2&quot;" newline="True"/>
+            <if expression="sayi1/sayi2&gt;0">
+                <then>
+                    <output expression="sayi1&gt;sayi2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="sayi1&lt;sayi2" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
