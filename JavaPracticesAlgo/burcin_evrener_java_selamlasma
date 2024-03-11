@@ -1,0 +1,10 @@
+public class Merhaba {
+
+    public static void main(String[] args) {
+        String kisi1 = "Ahmet";
+        String kisi2 = "Ayşe";
+
+        System.out.println(kisi1 + ": Merhaba " + kisi2 + "!");
+        System.out.println(kisi2 + ": Merhaba " + kisi1 + "!");
+    }
+}

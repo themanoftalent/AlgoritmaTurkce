@@ -1,0 +1,41 @@
+GOOGLE MAPS ÇALIŞMA MANTIĞI
+
+   Google Maps çalışma mantığında aslında birkaç temel algoritma vardır. Bu algoritmalar sayesinde günlük hayatta yol tarifinde oldukça fayda sağlar.
+    Bu algoritmalardan bazıları şunlardır:
+Harita Verisi İşleme Algoritmaları: Google Maps harita verilerini yönetmek için uydulardan, hava fotoğraflarından gibi birkaç kaynakla harita verilerine sahip olur. Harita verilerinin yönetilmesinde Quadtree algoritması kullanır. Bu algoritma bölgeye yaklaştıkça daha detaylı bir yol gösterir.
+Rota Oluşturma Algoritması: Bu algoritma Kullanıcı için en  kısa yolu bulmayı sağlar. Bunu yaparken mevsimsel koşullar ve trafik koşulları gibi faktörlere dikkat ederek yapar. Bunu yaparken A* algoritmasını kullanılır. Bu algoritma iki belirli hedef arasında   en optimum hesaplar.
+Trafik Tahmini Algoritmaları: Google Maps trafik durumunu tahmin ederken karışık algoritmalar kullanır. Bunları kullanırken önceki verilerden ve eşzamanlı trafik durumundan faydalanarak en doğru trafik tahmini yapmaya çalışır.
+Konum Belirleme Algoritmaları: Konum belirlerken Gecoding ve Reverse Geocoding algoritmasını kullanır. Bu algoritma türünün yapısı da oldukça karmaşık bir yapıya sahiptir. Bu algoritma adres bilgilerini coğrafi koordinatlara çeviren veya tam tersini sağlayan bir algoritma türüdür.
+Kullanıcı Geri Bildirimleri: Kullanıcılar gittikleri yerlerin geri bildirimlerini yaparak gittikleri yerlerin kalitesini ve popülerliğini belirlemeye çalışır.
+Kamera ve Görsel Verileri İşleme Algoritmaları: Kullanıcılar gidecekleri yerleri daha iyi anımsamak için Google Maps   belli başlı görsel işleme tekniklerini kullanarak daha belirgin bir yol haritası çıkarmayı hedefler. 
+  Bunlar genel anlamdaki Google Maps’in kullandığı algoritmalardır. Bunlar ve bunların türünden algoritmaların birleşmesiyle En kısa, en hızlı ve güvenilir bir yol haritası çıkarmayı amaçlar.
+
+
+
+
+
+
+
+Bir Google Maps Yol Tarifi:
+Amaç : Yurt-Okul 
+Başlangıç: Yurt A Blok kapısı
+Bitiş: Bandırma Onyedi Eylül Üniveristesi
+1)A Kapısından sağa dönünüz ve düz devam ediniz.
+2)İlk sağa dönünüz ve düz devam ediniz.
+3)Kapıdan Çıkış
+4)Tekrar sağa dönünüz.
+5)200 metre düz devam ediniz.
+6)Tekrar sağa dönünüz ve 100 metre düz ilerleyin.
+7)Sola dönün ve 200 metre daha düz ilerleyin.
+8)Tekrar sağa dönünüz ve 100 metre daha düz devam edin.
+9)Sola dönün ve hedefinize ulaştınız.
+
+
+
+ 
+
+                                                                                                                                                  Sinem İncekara
+                                                                                                                                                   2211502019
+
+
+
