@@ -1,0 +1,7 @@
+MERVE CİNGÖZ 2111502015
+
+i++ ve ++i Arasındaki Fark
+
+i++ ifadesini kullandığımızda “i” değişkeninin mevcut değeri kullanılır ve sonrasında “i” bir birim artırılır.
+++i ifadesini kullandığımızda ise “i” değişkeni bir birim artırılır ve ardından bu artırılmış değer kullanılır.
+

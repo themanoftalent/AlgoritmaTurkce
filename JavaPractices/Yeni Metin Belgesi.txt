@@ -1,0 +1,8 @@
+class sayitoplami {
+    public static void main(String[] args) {
+        int sayi1=50;
+        int sayi2=90;
+        int toplam = (sayi1+sayi2);
+        System.out.println("sayilarin toplami = "+toplam);
+    }
+}
