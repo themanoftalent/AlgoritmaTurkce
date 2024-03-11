@@ -1,0 +1,8 @@
+public class Merhaba {
+
+	public static void main(String[] args) {
+		String msg1 = "Selam";
+		String msg2 = " Nasilsin?";
+		System.out.println(msg1+msg2);
+	}
+}
