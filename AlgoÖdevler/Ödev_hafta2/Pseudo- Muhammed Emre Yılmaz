@@ -1,0 +1,8 @@
+1- BAŞLA
+2- başlat sayı=150
+3- sayı>0 ise 
+4- sayıyı yaz  
+5- sayıyı 2 azalt
+6- sayı>0 kontol et büyük ise 3. adıma dön değilse 8. adıma git
+7- sayı>0 değilse
+8-BİTİR

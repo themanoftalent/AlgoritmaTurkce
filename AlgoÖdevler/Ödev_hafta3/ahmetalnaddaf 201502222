@@ -1,0 +1,10 @@
+*"++i": Bu ifade, bir değişkenin değerini artırır ve daha sonra bu artırılmış değeri kullanır. Yani, artırma işlemi hemen gerçekleşir ve değişiklik etkili olur.
+
+*"i++": Bu ifade, bir değişkenin mevcut değerini kullanır ve daha sonra bu değeri artırır. Yani, kullanılan değer önceki değerdir ve artırma işlemi sonradan gerçekleşir
+int i = 5;
+int sonuç = ++i; // i'yi artır ve ardından sonuç'a ata
+ Şimdi i = 6 ve sonuç = 6
+
+int i = 5;
+int sonuç = i++; // İşlemi gerçekleştir ve sonra i'yi artır
+Şimdi sonuç = 5, i = 6
