@@ -1,0 +1,17 @@
+Başlat
+
+sayı = 150
+while (num > 0)
+    yazdır(num)
+    sayıdan 2 çıkar
+
+Bitir
+
+
+Çıktı
+ 150
+ 148
+ 146
+ ...
+ ...
+ 2
