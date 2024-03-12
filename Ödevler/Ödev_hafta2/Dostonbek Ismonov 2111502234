@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  // i++ ve ++i ni farkı.
+  
+    /*
+    ilk önce ++i i=i+1 işlem yapıyor ve değişkene yeni değer veriyor:
+    
+    sonra a++ önce değerini kullanıyor sonra işlem yapıyor ve yeni değer veriyor:
+	*/
+    
+    
+    int i =5;
+    int a =6;
+    printf("%d\t",++i);
+    printf("%d",i);    
+    
+    printf("\n%d\t",a++);
+    printf("%d",a);
+    
+    
+    return 0;
+}
