@@ -1,0 +1,8 @@
+public class SayiTopla{
+public static void main(string[] args){
+int num1 = 3;
+int num2 = 9;
+int sum = num2+num1;
+system.out.println("sayilarin toplamı:" +sum);
+}
+}
