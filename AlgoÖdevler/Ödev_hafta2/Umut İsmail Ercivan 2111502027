@@ -1,0 +1,7 @@
+++i ve i++ ifadeleri, bir değişkenin değerini artırmak için kullanılan iki farklı artırma operatörüdür.
+Her ikisinde de bir değişkenin değeri bir birim artar ama kullanım şekilleri farklıdır.
+++i : Önce değişkenin değerini arttırır sonrasında bu arttırılmış değeri kullanır.
+i++ : Önce değişkenin ilk değeri kullanılır sonrasında değeri arttırılır. 
+Mesela x=3 olsun
+A=x++ işleminde x'in değeri 4 olurken A'nın değeri 3 olur.
+A=++x işleminde x'in değeri 4 olurken A'nın da değeri 4 olur.
