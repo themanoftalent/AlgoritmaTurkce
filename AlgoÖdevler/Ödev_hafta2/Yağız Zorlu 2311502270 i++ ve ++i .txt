@@ -1,0 +1,8 @@
+i++ ile ++i 'nin Farkı Nedir?
+
+Eğer ++i yazarsak bu i'yi 1 arttırıp devam etmemiz anlamına gelir. 
+Fakat i++ yazarsak o satırdaki işlemlerimizi i üzerinden uygulayıp ondan sonra i'yi 1 arttırmamız anlamına gelir.
+
+Örnek olarak int i = 3 değeri tanımladığımızda i++ yı yazdırmak istersek 3 değerini yazdırır.
+Sonrasında altına ++i yi yazdırmak istersek 5 değerini yazdırır.
+Çünkü hem önceki i++ nın değeri yazdırdıktan sonraki arttırma kuralını uygular,hem de ++i nin değeri direkt arttırıp döndürme özelliğini kullanır.

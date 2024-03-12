@@ -1,0 +1,49 @@
+public class BirinciDers {
+
+	public static void main(String[] args) {
+		// Toplama
+		int sayi1=5,sayi2=2,toplam;
+		toplam=sayi1+sayi2;
+		System.out.println("sayi1 ve sayi2'nin toplami: "+toplam);
+		//Bölme
+		double sayi3=4.2,bolum;
+		int sayi4=2;
+		bolum=(double) (sayi3/sayi4);
+		System.out.println("sayi3'un sayi4'e bolumu: "+bolum);
+		//Selamlaşma
+		System.out.println("selam nasilsin?");
+		System.out.println("Iyiyim sen nasilsin?");
+		System.out.println("Ben de iyiyim tesekkur ederim.");
+		
+		//7 ERRORU ÖRNEKLER İLE AÇIKLAMA
+		//1.SYNTAX ERROR(SÖZDİZİMİ HATASI)= yazım hataları
+		System.out.println(selam); // mesela bu satırda tırnak işaretleri kullanılmadığından hata alırız.
+		//2.TYPE ERROR(TÜR HATASI)
+		String metin="selam";
+		int sayi5=5,sum;
+		sum=metin+sayi5;//burda iki farklı tür toplanmaya çalışıldığı için hata alırız.
+		//3.RUNTİME ERROR(ÇALIŞMA ZAMANI HATASI)
+		int dizi= {1,2};
+		System.out.println(dizi[5]);//burada dizinin uzunluğu dışına çıkılmaya çalışıldığı için hata alırız.
+		//4.LOGİC ERROR(MANTIK HATASI)
+		for(int i=0;i<5;i--) {
+			System.out.println(i);
+		}//burada yanlış bir mantık ile for döngüsü kurulmuş.
+		
+		//5.NULL POİNTER EXCEPTİON(BOŞ İŞARETÇİ HATASI)
+		String yazi;
+		yazi.length();//yazi değişkenine bir değer atanmadığı için uzunluğu hesaplanamaz bu yüzden hata alınır.
+		//6.ARİTMETİC EXCEPTİON(ARİTMETİK HATA)
+		int sayi6=3,sayi7=0,bölüm;
+		bölüm=sayi6/sayi7; //bir sayı sıfıra bölünemez. bu yüzden hata alınır.
+		//7.index out of band hatası= bu hata 3. örnek ile aynı.
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
