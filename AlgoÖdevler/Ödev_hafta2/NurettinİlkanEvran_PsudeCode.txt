@@ -1,0 +1,9 @@
+START
+
+A=1
+
+While A<150
+  Print A
+  A=A+2
+
+STOP
