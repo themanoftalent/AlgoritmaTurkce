@@ -1,0 +1,25 @@
+2211502059 EBRAR BULUT
+i++ ve ++i arasındaki fark 
+
+i++ ilk önce i'nin çıktısını veriyor sonra i'nin değerini bir artırıyor.
+++i i'yi ilk önce bir artırıp sonra çıktısını veriyor.
+public class Main{
+public static void main(String[] args){
+
+//i++ için
+int i =7;
+System.out.println(i++); // 7
+System.out.println(i); // 8
+
+
+// ++i için 
+int i=7;
+System.out.println(++i); //8
+System.out.println(i); // 8
+
+
+
+
+
+}
+}
