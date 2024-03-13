@@ -1,0 +1,7 @@
+START
+num = 150 
+WHILE num > 0
+    num'ı yazdır
+    num = num - 2
+
+END WHILE

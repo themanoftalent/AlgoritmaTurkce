@@ -1,0 +1,17 @@
+/* ++i ve i++ arasındaki fark nedir?
+
+"i++" bize i degerini verdikten sonra degerini artırır.
+"++i" ise 'i' degerini artırdıktan sonra degeri verir. 
+
+ornekle gösterimi 
+*/
+
+#include <stdio.h>
+
+int main(){
+    int i=0;
+    printf("Suan i= %d",i++);// i degerimiz 0'a esitti ve biz 'i++' kullandığımız icin 0 degeri okuyup sonrasında degeri 1 olarak artırdı. 
+    printf("\nSuan i = %d",++i);//i degerimiz bu satıra gelirken 1'di.'++i' kullandıgımız icin deger 2 olduktan sonra okunacak ve 2 dondürecek. 
+
+    return 0;
+}

@@ -1,0 +1,3 @@
+Aradaki fark artırma işleminin ne zaman yapıldığından kaynaklıdır.
+i++ işleminde önce i kullanılır daha sonra artırılır.
+++i işleminde ise önce i artırılır daha sonrasında kullanılır.
