@@ -1,0 +1,123 @@
+package algoritma;
+
+import java.util.Scanner;
+
+public class DoWhileKullanımı {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan=new Scanner(System.in);
+
+ int i=100;
+ do {
+	 System.out.println(i);
+	 i--;
+	 
+ }
+ while(i>0); {
+	 System.out.println(i);
+	 
+ }
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+package algoritma;
+
+import java.util.Scanner;
+
+public class DoWhileÖrnekleri1 {
+
+	public static void main(String[] args) {
+	
+		Scanner scan=new Scanner(System.in);
+		int number ;
+		System.out.println("Bir Sayi Giriniz");
+		number=scan.nextInt();
+		
+		do {
+			System.out.println("Girilen Sayi:"+number);// Kullanııcıdan alınan sayıyı ekrana yazdırır 
+			System.out.println("Bir Sayi Daha Giriniz:");// Kullanıcıdan Bir sayı daha ister
+			number=scan.nextInt();
+		}
+		while(number !=0);// Kullanıcı 0 Girene kadar devam eder
+		
+		System.out.println("Program sona erdi ");
+		
+	}
+
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+package algoritma;
+
+import java.util.Scanner;
+
+public class DoWhileÖrnekleri2 {
+
+	public static void main(String[] args) {
+		//Sayı Tahmini Yapalım 
+		Scanner scan=new Scanner(System.in);
+		
+		int Tahmin;
+		int ArananSayi=20;
+		
+		do {
+			System.out.println("Tahminizi Giriniz:");
+			Tahmin=scan.nextInt();
+			if(ArananSayi==Tahmin) {
+				System.out.println("Tebrikler kazandınız !!!");
+			}
+			else if(ArananSayi<Tahmin) {
+				System.out.println(" Daha Küçük Bir Sayi Giriniz :");
+			}
+			else if(ArananSayi>Tahmin) {
+				System.out.println("Daha Büyük Bir Sayi Giriniz:");
+				
+			}
+		} while(Tahmin!=ArananSayi);
+		
+	}
+
+
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+package algoritma;
+
+import java.util.Scanner;
+
+public class DoWhileÖrnek3 {
+
+	public static void main(String[] args) {
+		 Scanner scan=new Scanner(System.in);
+		 int sayaç=0;
+		 do {
+			 System.out.println("Sayaç:"+sayaç);
+			 sayaç++;
+		 }while(sayaç<10);
+		 
+
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+package algoritma;
+
+import java.util.Scanner;
+
+public class DoWhileÖrnek4 {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in); 
+		int sayi;
+
+	        do {
+	            System.out.print("Pozitif bir sayı giriniz: ");
+	            sayi = scan.nextInt();
+	        } while (sayi <= 0);
+
+	        System.out.println("Girdiğiniz sayı: " + sayi);
+
+	}
+
+}
