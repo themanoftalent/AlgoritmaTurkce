@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class carpim {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int sayi1, sayi2, carpim;
+		
+		System.out.println("Lutfen birinci sayiyi giriniz:  ");
+		sayi1=scan.nextInt();
+		
+		System.out.println("Lutfen ikinci sayiyi giriniz:  ");
+		sayi2=scan.nextInt();
+		
+		carpim=sayi1*sayi2;
+		
+		System.out.println("Isleminizin sonucu: "+ carpim);
+	}
+
+}
