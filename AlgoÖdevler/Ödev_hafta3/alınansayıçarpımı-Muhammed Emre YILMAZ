@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class ders3 {
+    public static void main(String[] args) {
+        Scanner sayı= new Scanner(System.in);
+        System.out.println("iki sayı girin");
+        int sayi1 = sayı.nextInt();
+        int sayi2 = sayı.nextInt();
+        int carpım =sayi1*sayi2;
+        if (carpım==16){
+            System.out.println("sonuç=16");
+        }
+        else {
+            System.out.println("sonuç yanlış");
+        }
+    }
+}
