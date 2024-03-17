@@ -1,0 +1,2 @@
+i++ ile ++i farkı
+++i önce arttırır sonra yazar , i++ ise önce arttırır sonra yazar farkını döngülerde görebiliriz .
