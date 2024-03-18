@@ -1,0 +1,7 @@
+Start
+for number from 150 to 0
+if number mod 2 != 0 then
+print(number)
+end for
+end if
+end
