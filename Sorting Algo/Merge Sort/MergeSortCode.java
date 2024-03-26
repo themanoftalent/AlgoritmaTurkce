@@ -1,3 +1,5 @@
+Düzelt
+
 public class MergeSort {
     // Birleştirme işlemi yapalım
     void merge(int[] array, int left, int middle, int right) {
