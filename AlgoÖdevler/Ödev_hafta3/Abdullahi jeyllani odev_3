@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main
+{
+    
+	public static void main(String[] args) {
+		System.out.println("Hello Welcome To Multiplying Program \n");
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Please enter two values");
+		double num1 = scan.nextDouble();
+		double num2 = scan.nextDouble();
+
+		System.out.println("The total is " + (num1 * num2) );
+		
+		
+		
+		
+		
+		
+	}
+}

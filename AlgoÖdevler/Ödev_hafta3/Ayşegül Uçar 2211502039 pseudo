@@ -1,0 +1,6 @@
+start
+for sayi from 150 down to 0 do
+if sayi mod 2 != 0 then
+print(sayi)
+end if
+end for

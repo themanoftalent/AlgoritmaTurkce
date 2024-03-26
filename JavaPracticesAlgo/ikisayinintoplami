@@ -1,0 +1,12 @@
+public class odev1 {
+    //IKI SAYININ TOPLAMI
+    public static void main(String[] args) {
+
+        int sayi1=12,sayi2=34;
+        int sum=sayi1+sayi2;
+        System.out.println("iki sayinin toplami= "+sum);
+    }
+
+}
+
+//SIFANUR ONAL-2211502032
