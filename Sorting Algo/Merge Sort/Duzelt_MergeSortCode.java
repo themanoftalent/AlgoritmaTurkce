@@ -1,3 +1,5 @@
+// Bu kodu düzeltiniz 
+
 public class MergeSort {
     // Birleştirme işlemi yapalım
     void merge(int[] array, int left, int middle, int right) {
@@ -47,42 +49,3 @@ public class MergeSort {
             k++;
         }
     }
-
-    // Ana sıralama metodu bu metot sıralama işlemini başlatır
-    void sort(int[] array, int left, int right) {
-        if (left < right) { 
-            // Orta noktayı hesapla ve diziyi ikiye böl
-            int middle = (left + right) / 2;
-
-            // İlk yarıyı sırala ve birleştir
-            sort(array, left, middle);
-            // İkinci yarıyı sırala ve birleştir
-            sort(array, middle + 1, right);
-
-            // Birleştir ve sırala
-            merge(array, left, middle, right);
-        }
-    }
-
-    // Diziyi ekrana yazdır 
-    static void printArray(int[] array) {
-        int length = array.length;
-        for (int i = 0; i < length; ++i)
-            System.out.print(array[i] + " ");
-        System.out.println();
-    }
-
-    // Motor kısmı burası
-    public static void main(String[] args) {
-        int[] array = {12, 11, 13, 5, 6, 7};
-
-        System.out.println("Verilen dizi:");
-        printArray(array);
-
-        MergeSort mergeSort = new MergeSort();
-        mergeSort.sort(array, 0, array.length - 1);
-
-        System.out.println("\nSıralanmış dizi:");
-        printArray(array);
-    }
-}
