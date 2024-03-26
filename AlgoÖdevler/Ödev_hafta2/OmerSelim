@@ -1,0 +1,2 @@
+i++ Kullanıldığında i'nin mevcut değeri kullanılır ve sonra 1 arttırılır
+++i Kullanıldığında i önce 1 artttırılır ve ardından arttırılmış değeri kullanılır.
