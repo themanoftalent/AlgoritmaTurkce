@@ -1,10 +1,8 @@
 package Week5;
 
-
 class MergeSort {
 
-    void Merge(int arr[], int left, int middle, int right)
-    {
+    void Merge(int arr[], int left, int middle, int right) {
 
         int n1 = middle - left + 1;
         int n2 = right - middle;
@@ -19,14 +17,12 @@ class MergeSort {
 
         int i = 0, j = 0;
 
-
         int k = left;
         while (i < n1 && j < n2) {
             if (LeftArray[i] <= RightArray[j]) {
                 arr[k] = LeftArray[i];
                 i++;
-            }
-            else {
+            } else {
                 arr[k] = RightArray[j];
                 j++;
             }
@@ -46,8 +42,7 @@ class MergeSort {
         }
     }
 
-    void Sort(int arr[], int left, int right)
-    {
+    void Sort(int arr[], int left, int right) {
         if (left < right) {
 
             int middle = (left + right) / 2;
@@ -60,8 +55,7 @@ class MergeSort {
     }
 
     // Driver method
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int arr[] = { 12, 11, 13, 5, 6, 7 };
 
         System.out.println("Verilen Dizi: ");
@@ -77,5 +71,4 @@ class MergeSort {
         for (int i = 0; i < m; ++i)
             System.out.print(arr[i] + " ");
     }
-                                                                      //Yağız Zorlu 2311502270
 }
