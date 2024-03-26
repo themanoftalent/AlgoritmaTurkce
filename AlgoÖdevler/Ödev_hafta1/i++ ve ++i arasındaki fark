@@ -1,0 +1,19 @@
+i++ , i sayısını işlemde kullan daha sonra 1 arttır demektir.
+++i ise i yi 1 arttır daha sonra işlemde kullan demektir.
+
+Bir örnekle açıklayacak olursak;
+
+public class fark {
+    public static void main(String[] args) {
+        int i=12;
+        System.out.println(i++); //12
+        System.out.println(i); //13
+
+        System.out.println(++i); //14
+        System.out.println(i); //14
+    }
+    
+}
+
+
+ŞİFANUR ÖNAL-2211502032

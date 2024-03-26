@@ -1,0 +1,20 @@
+package algoritma;
+
+import java.util.Scanner;
+
+public class İkiSayininÇarpımı {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int num1,num2 ,çarpim;
+		System.out.print("Birinci Sayiyi Giriniz:");
+		num1=scan.nextInt();
+		System.out.print("İkinci Sayiyi Giriniz:");
+		num2=scan.nextInt();
+		çarpim=num1*num2;
+		System.out.println("Çarpımları:"+ çarpim);
+		
+
+	}
+
+}

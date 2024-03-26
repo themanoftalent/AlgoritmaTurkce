@@ -1,0 +1,20 @@
+i++ ve ++i arasındaki fark
+
+i++ işleminde eğer i sayısı kullanılıyorsa herhangi bir değişiklik yapılmadan kullanılır. Ardından 1 arttırılır
+++i işleminde ise i sayısı ilk olarak 1 arttırılır.
+
+Örnek kod:
+
+public class Main {
+    public static void main(String[] args) {
+        int i = 3;
+
+        System.out.println("i değeri: " + i); // i değeri 3, yazılan değer 3
+        System.out.println("i değeri: " + i++); // i değeri 3 olarak yazıldı, ardından 1 arttırıldı
+        System.out.println("i değeri: " + i); // i değeri 4 yazıldı
+        
+        System.out.println("i değeri: " + i); // i değeri 4, yazılan değer 4
+        System.out.println("i değeri: " + ++i); // i değeri 1 arttırıldı ardından 5 olarak yazıldı
+        System.out.println("i değeri: " + i); // i değeri 5 yazıldı
+    }
+}
