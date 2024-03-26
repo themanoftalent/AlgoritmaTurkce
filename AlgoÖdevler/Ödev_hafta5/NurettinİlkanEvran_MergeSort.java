@@ -65,7 +65,7 @@ public class NurettinİlkanEvran_MergeSort {
     }
     public static void main(String[] args) {
     	int []array = {2,62,45,85,25,3,22};
-    	MergeSort sorting = new MergeSort();
+    	NurettinİlkanEvran_MergeSort sorting = new NurettinİlkanEvran_MergeSort();
     	sorting.sort(array, 0, array.length - 1);
     	print(array);
     	
