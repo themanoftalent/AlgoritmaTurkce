@@ -1,0 +1,11 @@
+public class konusma {
+    public static void main(String[] args) {
+
+        System.out.println("Kisi1:Merhaba,nasilsiniz?");
+        System.out.println("Kisi2:iyiyim,siz nasilsiniz?");
+        System.out.println("Kisi1:Tesekkurler ben de iyiyim.");
+
+    }
+    
+}
+//Şifanur Önal-2211502032
