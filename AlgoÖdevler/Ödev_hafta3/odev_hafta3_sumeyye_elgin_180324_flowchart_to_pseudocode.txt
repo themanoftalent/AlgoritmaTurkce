@@ -1,0 +1,13 @@
+pseudo code
+
+1. start
+2. define num = 150
+3. if num > 0 then
+4.	print num
+5.	decrease num by 2
+6.	if num > 0 then
+7.		repeat step 3
+8.	else 
+9.		stop
+10. else 
+11.	stop
