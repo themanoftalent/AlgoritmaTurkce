@@ -1,0 +1,19 @@
+MERVE CİNGÖZ 2111502015
+
+import java.util.Scanner;
+public class IkiSayininCarpimi {
+    public static void main(String[]args){
+        Scanner okuyucu = new Scanner(System.in);
+        System.out.print("Lutfen ilk sayiyi giriniz:");
+        int number1 = okuyucu.nextInt();
+        System.out.print("Lutfen ikinci sayiyi giriniz:");
+        int number2 = okuyucu.nextInt();
+
+        int carpim = number1 * number2;
+        System.out.print("Sonuc:" +carpim);
+
+
+
+
+    }
+}

@@ -1,0 +1,8 @@
+ public class SayiToplam {
+     
+    public static void main(String[] args) {
+        int num1=5;
+        int num2=3;
+        System.out.println("SayilarinToplami"+(num1+num2));
+    }
+}

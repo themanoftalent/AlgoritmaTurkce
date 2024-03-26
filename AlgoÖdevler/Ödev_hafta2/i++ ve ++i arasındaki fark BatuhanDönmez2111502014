@@ -1,0 +1,17 @@
+ 2111502014 Batuhan Dönmez
+
+i++ ve ++i nin farkı
+
+i++ ilk önce sayının kendisini çıktı olarak verir ve sayıyı 1 artırır,
+++i sayıyı 1 artırarak sonrasında çıktı verir.
+
+ÖRNEK:
+int sayi;
+sayi=1;
+printf("%d",sayi++);//Çıktı olarak 1 verecek
+printf("%d",sayi);//Çıktı olarak 2 verecek
+
+int sayi;
+sayi=1;
+printf("%d",++sayi);//Çıktı olarak 2 verecek
+printf("%d",sayi);//Çıktı olarak 2 verecek
