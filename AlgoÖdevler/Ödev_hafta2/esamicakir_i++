@@ -1,0 +1,7 @@
+i++ ve ++i farkı
+
+1- i++
+Bu ifade i değişkeninin değerini kullanır ve değerini 1 arttırır.
+
+2- ++i
+Bu ifade i değişkeninin değerini 1 arttırır ve yeni değeri kullanır.

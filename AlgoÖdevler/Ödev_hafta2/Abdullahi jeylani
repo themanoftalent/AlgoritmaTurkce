@@ -1,0 +1,4 @@
+++i: It is also called pre-increment and it adds 1 to the i variable
+i++: It is also called post-increment and it adds 1 to the i variable
+the difference between them is that pre-increment(++i) adds one to i variable and executes its line of code
+but post-increment(i++) adds one to i variable and then executes the line of code

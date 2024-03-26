@@ -1,0 +1,33 @@
+Google Maps ‘in yolu  nasıl buldurduğunun algoritması:
+1)Veri toplama: Google Maps uygulaması Dünya ‘da geniş bir coğrafi veri tabanına sahiptir. Bu veriler sayesinde sokak isimleri, trafik durumu ve hız limitleri gibi parametreler hakkında bilgi sahibidir.
+2)Kullanıcı girdisi alımı: Kullanıcı bir başlangıç ve varış noktası belirlediğinde Google  Maps bu bilgiyi alır.
+3)Yol planlama algoritması: Google Maps kullanıcıların belirlediği başlangıç ve varış noktaları arasındaki en iyi rotayı belirlemek için yol planlama uygulaması kullanılır.
+4)Trafik ve gerçek zamanlı veri entegrasyonu: Google Maps trafik yoğunluğu ,kaza durumu ,yol yapım çalışmalarını ve diğer gerçek zamanlı verileri takip eder.Bu bilgiler kullanıcıya en doğru tahmini 
+varış süresini sunmak için kullanılır.
+5)Altarnatif rotalar: Optimum rotanın belirlenmesinin ardından olası bir rotadan sapmayı çözmek amacıyla alternatif rotalar sunulur.
+6)Yol tarifi yönlendirme: En uygun rotanın belirlenmesinin ardından Google Maps kullanıcıya yol tarifi ve yönlendirmeler sunar. Bu yönlendirmeler dönüşleri ,kavşakları ve diğer önemli binaları içerir. 
+Ve bütün bu veriler doğrultusunda Maps uygulaması bize  yol tarifi yapar.
+
+Sandwich Algoritması:(Hocam derste sandwich yapımı algoritmaını da istemiştiniz ama LMS ‘de   bu algoritmaya ait bir link olmadığı için sandwich algoritmasını buraya atıyorum.)
+(Ayrıca sandwich i yapacak kişi mutfak kapısının önünde ve mutfak kapısının kapalı olduğu bilinmelidir. Ek olarak yapılacak  sandwich ekmek ,peynir,sostan oluşmaktadır.)
+1)Kapı kulpunu tut.
+2)Kapı kulpunu sağa çevir.
+3)Kapıyı it.
+4)Sağa dön.
+5)Mutfağın içerisine doğru yürü
+6)Buzdolabına doğru git.
+7)Buzdolabından ekmek, sos, kaşar peyniri al.
+8)Buzdolabından aldığın malzemeleri tezgahın üstüne koy.
+9)Peynirleri dilim dilim kes
+10)Ekmek dilimlerinin arasına sosu sür
+11)Sosun üzerine peynir dilimini koy ve ekmek dilimlerini peynir arada kalacak şekilde yerleştir.
+12)Tost makinesini prize tak .
+13)Tost makinesini çalıştır.
+13)Tost makinesinin kapağını aç.
+14)Sandwich i koy.
+15)Tost makinesinin kapağını kapat.
+16)Birkaç dakika beke.
+17)Kaşarın tamamen eridiğinden emin olunca tost makinesinin kapağını aç.
+18)Tostu al.
+19)Tostu tabağa koy .
+
