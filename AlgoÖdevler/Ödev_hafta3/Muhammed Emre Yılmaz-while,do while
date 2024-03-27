@@ -1,0 +1,87 @@
+//Muhammed Emre Yılmaz 2211502056
+
+//1. örnek
+public class DoWhile {
+    public static void main(String[] args) {
+        int n=10;
+        do
+        {
+            System.out.println(n);
+            n--;//birer birer azaltıyoruz.
+        }
+        while(0<n);
+
+    }
+}
+
+//2. örnek
+import java.util.Scanner;
+public class DoWhile {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Sayı giriniz");
+        int n = scanner.nextInt();
+        int toplam = 0;
+
+        do {
+            toplam += n % 10;
+            n /= 10;
+        }
+        while (n > 0);
+        System.out.println(toplam);
+    }
+}
+
+//3. örnek
+import java.util.Scanner;
+public class DoWhile {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Sayı giriniz");
+        int n = scanner.nextInt();
+        int toplam = 0;
+
+        do {
+            toplam += n;
+            n--;
+        }
+        while(n > 0);
+        System.out.println("Girilen sayıdan 0'a kadar olan sayılar toplamı = " +toplam);
+
+    }
+}
+//4. örnek
+import java.util.Scanner;
+public class DoWhile {
+    public static void main(String[] args) {
+        Scanner kullanici = new Scanner(System.in);
+        double toplam = 0;
+        double girdi = -1;
+        int adet = 1;
+        System.out.print("Toplanacak Sayıları Girin (Çıkmak için 0 girin)\n\n");
+        while (girdi != 0) {
+            System.out.print(adet + ". Sayı: ");
+            girdi = kullanici.nextDouble();
+            toplam = toplam + girdi;
+            adet++;
+        }
+        System.out.println("\n\nToplam: " + toplam);
+    }
+}
+
+//5. örnek
+public class DoWhile {
+    public static void main(String[] args) {
+        int deger = 80;
+        int bolen = 1;
+        int tamBolenlerToplami = 0;
+        while(bolen <= deger) {
+            if (deger % bolen == 0) {
+                System.out.println(deger + " sayısı " + bolen + " sayısına tam bölünür.");
+                tamBolenlerToplami = tamBolenlerToplami + bolen;
+                bolen++;
+            }
+        }
+                System.out.println("\n" + deger + " sayısının tam bölenlerinin toplamı: " + tamBolenlerToplami);
+            }
+        }
