@@ -1,0 +1,5 @@
+public class Sayitoplam{
+    public static void main(String[] args) {
+       int num1= 8;
+       int num2= 12;
+       System.out.println("iki sayinin toplami = " +(num1+num2));
