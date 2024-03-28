@@ -1,0 +1,70 @@
+// Muhammed Nebi Altın 2311502278
+
+public class MergeSort {
+    static int[] array = {3,5,2,1,6,4,8,2,3,14,5,26,23,0};
+    static void mergeSort(int[] A){
+
+        if (A.length <= 1) return;
+
+        int middle = A.length / 2;
+
+        int L[] = new int[middle];
+        int R[] = new int[A.length - middle];
+
+        int l = 0;
+        int r = 0;
+        for (int i = 0; i < A.length; i++){
+            if (i < middle){
+                L[l] = A[i];
+                l++;
+            }
+            else {
+                R[r] = A[i];
+                r++;
+            }
+        }
+
+        mergeSort(L);
+        mergeSort(R);
+        merge(A, L, R);
+    }
+
+    static void merge(int[] A, int[] L, int[] R){
+        int l = 0;
+        int r = 0;
+        int i = 0;
+        while (l < L.length && r < R.length){
+            if (L[l] < R[r]){
+                A[i] = L[l];
+                l++;
+                i++;
+            }
+            else{
+                A[i] = R[r];
+                r++;
+                i++;
+            }
+        }
+
+        while (l < L.length){
+            A[i] = L[l];
+            l++;
+            i++;
+        }
+        while (r < R.length){
+            A[i] = R[r];
+            r++;
+            i++;
+        }
+
+
+    }
+
+    public static void main(String[] args) {
+        mergeSort(array);
+        for (int i = 0; i < array.length; i++){
+            System.out.println(array[i]);
+
+        }
+    }
+}
