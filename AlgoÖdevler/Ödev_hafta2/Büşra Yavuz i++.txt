@@ -1,0 +1,19 @@
+i++ ile ++i arasındaki fark
+i++ önce i yi kullanır sonra değerini bir arttırır,
+++i önce i nin değerini bir arttırır sonra kullanır.
+
+public class Main {
+    public static void main(String[] args) {
+      int i=10;
+      System.out.println("i değeri: " + i); // çıktı=10
+      System.out.println("i değeri: " + ++i); // çıktı=11
+    }}
+
+public class Main {
+    public static void main(String[] args) {
+      int i=10;
+      System.out.println("i değeri: " + i); // çıktı=10
+      System.out.println("i değeri: " + i++); // çıktı=10
+      System.out.println("i değeri: " + i); // çıktı=11
+    }}
+Büşra Yavuz 2211502034
