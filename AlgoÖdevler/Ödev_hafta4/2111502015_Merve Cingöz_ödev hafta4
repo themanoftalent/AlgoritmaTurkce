@@ -1,0 +1,7 @@
+1. Başla
+2. i = 150
+3. While i >= 1:
+4.     Eğer i % 2 != 0 ise:
+5.         Yazdır i
+6.     i = i - 1
+7. Bitir
