@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class ikisayinincarpimi {
+    public static void main(String[]args){
+
+        Scanner okuyucu = new Scanner(System.in);
+        System.out.print("numara1 i girin :");
+        int number1 = okuyucu.nextInt();
+        System.out.print("numara2 yi girin:");
+        int number2 = okuyucu.nextInt();
+
+        int carpimi = number1 * number2;
+
+        System.out.print("çarpımın sonucu:"+carpim);
+
+    }
+}
