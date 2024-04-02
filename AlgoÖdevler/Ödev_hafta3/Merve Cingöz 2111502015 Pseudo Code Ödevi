@@ -1,0 +1,9 @@
+Merve Cingöz 2111502015
+
+start
+for sayi1 from 150 down to 0 do
+if sayi1 mod 2 != 0 then
+print(sayi1)
+end if
+end for
+end
