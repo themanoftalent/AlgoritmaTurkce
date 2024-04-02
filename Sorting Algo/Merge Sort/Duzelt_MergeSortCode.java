@@ -1,4 +1,4 @@
-Düzelt
+// Bu kodu düzeltiniz 
 
 public class MergeSort {
     // Birleştirme işlemi yapalım
