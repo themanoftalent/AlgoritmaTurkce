@@ -1,48 +1,61 @@
 package Week5;
 
+
 class MergeSort {
 
-    void Merge(int arr[], int left, int middle, int right) {
+    void Merge(int arr[], int left, int middle, int right)
+    {
 
         int n1 = middle - left + 1;
         int n2 = right - middle;
 
-        int LeftArray[] = new int[n1];
-        int RightArray[] = new int[n2];
+        //Geçici alt diziler oluştur ve verileri kopyala
+        int leftArray[] = new int[n1];
+        int rightArray[] = new int[n2];
 
+
+        //Verileri geçici dizilere kopyala(alt dizileri oluştur)
         for (int i = 0; i < n1; ++i)
-            LeftArray[i] = arr[left + i];
+            leftArray[i] = arr[left + i];
         for (int j = 0; j < n2; ++j)
-            RightArray[j] = arr[middle + 1 + j];
+            rightArray[j] = arr[middle + 1 + j];
+
+        // İki alt diziyi birleştir ve ana diziyi sırala
+
+        // İndeksleri başlat (ilk alt dizi için i, ikinci alt dizi için j)
 
         int i = 0, j = 0;
 
+        // Birleştirme işlemi için ana dizinin indeksi
+
         int k = left;
         while (i < n1 && j < n2) {
-            if (LeftArray[i] <= RightArray[j]) {
-                arr[k] = LeftArray[i];
+            if (leftArray[i] <= rightArray[j]) {
+                arr[k] = leftArray[i];
                 i++;
-            } else {
-                arr[k] = RightArray[j];
+            }
+            else {
+                arr[k] = rightArray[j];
                 j++;
             }
             k++;
         }
 
         while (i < n1) {
-            arr[k] = LeftArray[i];   //LeftArrayde kalan elementler varsa diziye ekliyoruz.
+            arr[k] = leftArray[i];   //LeftArrayde kalan elementler varsa diziye ekliyoruz.
             i++;
             k++;
         }
 
         while (j < n2) {
-            arr[k] = RightArray[j];       //RightArrayde kalan elementler varsa diziye ekliyoruz.
+            arr[k] = rightArray[j];       //RightArrayde kalan elementler varsa diziye ekliyoruz.
             j++;
             k++;
         }
     }
 
-    void Sort(int arr[], int left, int right) {
+    void Sort(int arr[], int left, int right)
+    {
         if (left < right) {
 
             int middle = (left + right) / 2;
@@ -54,8 +67,8 @@ class MergeSort {
         }
     }
 
-    // Driver method
-    public static void main(String args[]) {
+    public static void main(String args[])
+    {
         int arr[] = { 12, 11, 13, 5, 6, 7 };
 
         System.out.println("Verilen Dizi: ");
@@ -71,4 +84,5 @@ class MergeSort {
         for (int i = 0; i < m; ++i)
             System.out.print(arr[i] + " ");
     }
+                                                                      //Yağız Zorlu 2311502270
 }
