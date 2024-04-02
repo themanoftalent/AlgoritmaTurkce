@@ -1,0 +1,12 @@
+Merve Cingöz 2111502015
+
+public class DoWhile {
+	    public static void main(String[] args) {
+	        int sayi = 1;
+	        
+	        do {
+	            System.out.println(sayi);
+	            sayi++;
+	        } while (sayi <= 100);
+	    }
+	}
