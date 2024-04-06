@@ -13,7 +13,7 @@ public class MergeSort {
             int mid = left + (right-left)/2;
             mergeSort(arr,temp,left,mid);
             mergeSort(arr,temp,mid+1,right);
-            birlestir(arr,temp,left,right); //Hata eklendi 
+            birlestir(arr,temp,left,right,mid); //Hata eklendi 
         }
 
 
@@ -66,6 +66,3 @@ while (i <= mid){
 
 
 }
-
-
-
