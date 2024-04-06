@@ -1,0 +1,25 @@
+public class Main {
+    public static void main(String[] args) {
+        int i = 5;
+        
+        // i++ kullanımı
+        System.out.println("i'nin değeri: " + i); // Önce değeri yazdırılır (5)
+        System.out.println("i++ işlemi sonrası i'nin değeri: " + i++); // Değeri yazdırılır, sonra artırılır (5), i = 6
+        System.out.println("i'nin artırılmış değeri: " + i); // Artırılmış değeri yazdırılır (6)
+        
+        System.out.println(); // Bir satır boşluk bırak
+
+        i = 5; // i'yi tekrar 5'e atayalım
+        
+        // ++i kullanımı
+        System.out.println("i'nin değeri: " + i); // Önce değeri yazdırılır (5)
+        System.out.println("++i işlemi sonrası i'nin değeri: " + ++i); // Değeri artırılır, sonra yazdırılır (6), i = 6
+        System.out.println("i'nin artırılmış değeri: " + i); // Artırılmış değeri yazdırılır (6)
+    }
+}
+
+/* 
+i++ kullanıldığında, önce i'nin mevcut değeri kullanılır ve daha sonra i bir artırılır.
+++i kullanıldığında ise, i önce bir artırılır ve ardından artırılmış değeri kullanılır.
+Sonuç olarak, i++ ve ++i arasındaki fark, artırma işleminin zamanlamasında yatar.
+*/
