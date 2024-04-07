@@ -1,3 +1,6 @@
+
+import java.util.Arrays;
+
 public class MergeSort {
     public static void mergeSort(int[] arr) {
         if(arr == null || arr.length <= 1){
@@ -5,7 +8,7 @@ public class MergeSort {
         }
         int[] temp = new int[arr.length];
         mergeSort(arr, temp,0,arr.length -1);
-        
+
     }
     private static void mergeSort(int[] arr, int[] temp,int left,int right) {
         if(left<right) {
@@ -13,13 +16,14 @@ public class MergeSort {
             int mid = left + (right-left)/2;
             mergeSort(arr,temp,left,mid);
             mergeSort(arr,temp,mid+1,right);
-            birlestir(arr,temp,left,right,mid); //Hata eklendi 
+            birlestir(arr,temp,left,right); //Hata eklendi 
         }
 
 
 
     }
-    private static void birlestir(int[] arr, int[] temp,int left,int right,int mid){
+    private static void birlestir(int[] arr, int[] temp,int left,int right){
+    	int mid = left + (right-left)/2;
         for(int i = left; i<= right; i++){
             temp[i] = arr[i];
 
@@ -54,14 +58,14 @@ while (i <= mid){
 }
  }
  public static void main(String[] args) {
-    int[] arr = {11,14,2,6,7,9,2,4 };
-    System.out.println("Listemiz" + arr);
+    int[] arr = {1,14,2,6,7,9,2,4};
+    System.out.println("Listemiz" + Arrays.toString(arr));
 
     mergeSort(arr);
 
-    System.out.println("sıralanmış dizi" +arr);
+    System.out.println("sıralanmış dizi" + Arrays.toString(arr));
  }
- 
+
 
 
 
