@@ -1,0 +1,19 @@
+1  telefonunuzu açınız.
+
+2  internetinizi açınız.
+
+3  google mapse giriniz.
+
+4  gitmek isteyeceğiniz yerin ismini seçiniz.
+
+5  gitmek istediğiniz yer çıktıysa üzerine tıklayınız.
+
+6  yol tarifi almak için "yol tarifi"butonuna tıklayınız.
+
+7  nasıl gideceğinizi seçiniz.
+
+8  başla butonuna tıklayınız.
+
+9  harita uygulamasındaki size söylenen komutları uygulamaya başlayınız.
+
+10  gitmek istediğiniz yere vardığınızda konumunuzu kapatınız ve uygulamadan çıkınız.

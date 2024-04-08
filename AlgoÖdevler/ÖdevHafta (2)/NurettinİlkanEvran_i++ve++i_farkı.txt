@@ -1,0 +1,8 @@
+ i++ ile ++i farkı
+
+Atama ve 4 işlem gibi komutlarda i++ ile ++i nin farkı i'nin değerine komuttan önce mi sonra mı 1 artılacağını ifade eder.
+
+
+Örneğin:
+i=10 diyelim. "A = ++i" atamasını yaparsak A ve i'nin yeni değeri 11 olur.
+Eğer "A = i++" atamasını yaparsak A'nın değeri 10 i'nin yeni değeri 11 olur.
