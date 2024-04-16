@@ -1,0 +1,13 @@
+java.util.Scanner;
+public class multiplication of two numbers{
+public static void main (String[] args){
+int num1,num2,result;
+Scanner scanner = new Scanner(system.in);
+systemprintout("please enter number1: ");
+int num1 = scanner.nextInt();
+systemprintout("please enter number2: ");
+int num2 = scanner.nextInt();
+num1*num2=result;
+systemprintout("your answer is: "+result);
+}
+}

@@ -1,0 +1,31 @@
+public class odev {
+    public static void main(String[] args) {
+        int sayi = 0;
+
+        do {
+            System.out.println("Sayı: " + sayi);
+            sayi++;
+        } while (sayi < 10);
+    }
+}
+
+public class justonce {
+    public static void main(String[] args) {
+        do {
+            System.out.println("Bu mesaj sadece bir kez görüntülenecek.");
+        } while (false);
+    }
+}
+
+public class gerisayim {
+    public static void main(String[] args) {
+        int baslangic = 10;
+
+        do {
+            System.out.println("Geri sayım: " + baslangic);
+            baslangic--;
+        } while (baslangic > 0);
+    }
+}
+
+

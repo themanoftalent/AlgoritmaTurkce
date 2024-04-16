@@ -1,0 +1,54 @@
+
+
+//Quick Sort-Hata Çözümü
+
+public class QuickSort{
+    public static void quickSort(int[] arr, int low, int high) {                    //Osman ARI 2211502018
+
+        if (low < high) {
+            int pivotIndex = bol(arr, low, high);  //pivot bulma işlemi
+
+                                                                                 //pivotIndex,sadece if'in içinde tanımlanmamalı.
+            quickSort(arr, low, pivotIndex - 1);//recursive olarak çağır     //quickSort fonksiyonu içerisinde pivotIndex'i kullanabilmek için
+            quickSort(arr, pivotIndex + 1, high);                          // if koşulunun süslü parantezi quickSort fonksiyonlarını kapsamalı.
+        }
+    }
+    public static int bol(int[] arr, int low, int high) {
+
+        int pivot = arr[high];
+        int i = low - 1;
+
+
+        for (int j = low; j < high; j++) {
+            if (arr[j] < pivot) {
+                i++;
+                //hanoi tower
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+        int temp=arr[i+1];              //Bu kısım pivotun
+        arr[i+1]=arr[high];            // yeni indeksini döndürmek
+        arr[high]=temp;               // için eklenmeli.
+       return i+1;
+    }
+public static void printArray( int[] arr){         //Fonksiyonun dönüş türü belirtilmeli("void").
+            for (int i=0;i<arr.length;i++) {
+                System.out.print(arr[i]+" ");    //Sıralanmış diziyi yatay şekilde yazdırabilmek için "println" yerine "print" fonksiyonu kullanılmalı.
+
+            }
+        }
+
+    public static void main(String[] args){            //psvm metodu eklenmeli.
+        int[] arr = {2, 5, 6, 9, 7, 8, 4, 5, 2, 45, 6, 35, 4};
+        System.out.print("Listemiz:");
+        printArray(arr);
+        System.out.println(" ");
+        quickSort(arr, 0, arr.length - 1);
+        System.out.print("Sıralanmış dizi:");
+        printArray(arr);
+
+    }
+}
+   // quickSort(arr,0,);
