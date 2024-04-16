@@ -1,0 +1,20 @@
+Start
+
+Read target
+min = 0
+max = array.length - 1
+
+while (min <= max)
+    mid = (max + min) / 2
+    
+    if (A[mid] == target)
+        return mid
+    
+    if (target > A[mid])
+        min = mid + 1
+    else
+        max = mid - 1
+
+return -1
+
+End
