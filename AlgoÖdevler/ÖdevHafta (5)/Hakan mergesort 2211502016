@@ -1,0 +1,30 @@
+public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Dizi boyutu girin: ");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.println("elemanları girin:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
+        deneme123 mergeSort = new deneme123();
+        mergeSort.sort(arr, 0, n - 1);
+
+        System.out.println("Sıralı dizi:");
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+    }
+
+ public static int findMinVertex(int[] distance, boolean[] visited) {
+        int minDistance = INF;
+        int minVertex = -1;
+
+        for (int v = 0; v < distance.length; v++) {
+            if (!visited[v] && distance[v] <= minDistance) {
+                minDistance = distance[v];
+                minVertex = v;
+            }
+        }
+        return minVertex;
+    }
