@@ -1,0 +1,9 @@
+Pseudo Code Yazma Ödevi
+
+1-Başla
+2-Sayı = 150
+3-Sayı > 0 ise devam et. Sayı <= 0 ise bitir.
+4-Sayıyı yazdır.
+5-Sayıdan 2 çıkart.
+6-Sayı > 0 ise 4.adıma dön.
+7-Bitir.

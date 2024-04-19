@@ -1,0 +1,17 @@
+start
+BinarySearch(list[],min,max, target):
+mid = (min + max) / 2
+if list[mid] == target
+	print "sayı bulundu"
+	stop
+else if list[mid] > target then
+	mid = mid - 1
+	max = mid
+	mid = (min + max) / 2
+	BinarySearchList(list[],min,max, target)
+else if list[mid] < target then
+	mid = mid + 1
+	min = mid
+	mid = (min + max) / 2
+	BinarySearchList(list[],min,max, target)
+stop

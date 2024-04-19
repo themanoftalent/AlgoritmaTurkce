@@ -1,0 +1,77 @@
+Merve Cingöz 2111502015
+
+
+import java.util.*;
+
+public class Dijkstra {
+
+    public static void main(String[] args) {
+        // Grafı temsil eden 2 boyutlu dizi
+        int[][] graf = {
+            {0, 4, 0, 0, 0, 0, 0, 8, 0},
+            {4, 0, 8, 0, 0, 0, 0, 11, 0},
+            {0, 8, 0, 7, 0, 4, 0, 0, 2},
+            {0, 0, 7, 0, 9, 14, 0, 0, 0},
+            {0, 0, 0, 9, 0, 10, 0, 0, 0},
+            {0, 0, 4, 14, 10, 0, 2, 0, 0},
+            {0, 0, 0, 0, 0, 2, 0, 1, 6},
+            {8, 11, 0, 0, 0, 0, 1, 0, 7},
+            {0, 0, 2, 0, 0, 0, 6, 7, 0}
+        };
+
+        // Başlangıç düğümü
+        int baslangicDugumu = 0;
+
+        dijkstra(graf, baslangicDugumu);
+    }
+
+    static void dijkstra(int[][] graf, int baslangicDugumu) {
+        int dugumSayisi = graf.length;
+        int[] mesafe = new int[dugumSayisi]; // Başlangıç düğümünden olan mesafeler
+        boolean[] ziyaretEdildi = new boolean[dugumSayisi]; // Düğümlerin ziyaret durumu
+
+        // Mesafeleri sonsuz olarak ayarla
+        for (int i = 0; i < dugumSayisi; i++) {
+            mesafe[i] = Integer.MAX_VALUE;
+            ziyaretEdildi[i] = false;
+        }
+
+        // Başlangıç düğümüne olan mesafeyi 0 olarak ayarla
+        mesafe[baslangicDugumu] = 0;
+
+        // Dijkstra algoritması
+        for (int i = 0; i < dugumSayisi - 1; i++) {
+            int minUzaklikDugumu = minUzaklikDugumu(mesafe, ziyaretEdildi);
+            ziyaretEdildi[minUzaklikDugumu] = true;
+
+            for (int j = 0; j < dugumSayisi; j++) {
+                if (!ziyaretEdildi[j] && graf[minUzaklikDugumu][j] != 0 &&
+                        mesafe[minUzaklikDugumu] != Integer.MAX_VALUE &&
+                        mesafe[minUzaklikDugumu] + graf[minUzaklikDugumu][j] < mesafe[j]) {
+                    mesafe[j] = mesafe[minUzaklikDugumu] + graf[minUzaklikDugumu][j];
+                }
+            }
+        }
+
+        // Sonuçları yazdır
+        System.out.println("Dugum\tMesafe");
+        for (int i = 0; i < dugumSayisi; i++) {
+            System.out.println(i + "\t" + mesafe[i]);
+        }
+    }
+
+    static int minUzaklikDugumu(int[] mesafe, boolean[] ziyaretEdildi) {
+        int minMesafe = Integer.MAX_VALUE;
+        int minIndex = -1;
+
+        for (int i = 0; i < mesafe.length; i++) {
+            if (!ziyaretEdildi[i] && mesafe[i] <= minMesafe) {
+                minMesafe = mesafe[i];
+                minIndex = i;
+            }
+        }
+
+        return minIndex;
+    }
+}
+
