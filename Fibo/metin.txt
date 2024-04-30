@@ -1,0 +1,27 @@
+public class Main {
+    public static void main(String[] args) {
+        long startTime = System.nanoTime();
+
+        int n = 30; 
+        int result = fibonacci(n);
+
+
+        long endTime = System.nanoTime();
+
+
+        long elapsedTimeInNano = endTime - startTime;
+        long elapsedTimeInMilliseconds = (long) elapsedTimeInNano / 1_000_000;
+
+
+        System.out.println("Fibonacci(" + n + ") = " + result);
+        System.out.println("gecensure: " + elapsedTimeInMilliseconds + " millisaniye");
+    }
+
+    public static int fibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        } else {
+            return fibonacci(n - 1) + fibonacci(n - 2);
+        }
+    }
+}
