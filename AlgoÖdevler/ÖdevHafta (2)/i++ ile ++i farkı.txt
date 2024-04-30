@@ -1,0 +1,18 @@
+i++ ile ++i temelde aynı görevi gerçekleştirirler.Her iki operatörde değişkenine 1 ekler. İkisi arasında tek fark ++i ilk önce değeri 1 arttırıp atama yapar, i++ ise önce atamayı yapar sonra değerini 1 arttırır.
+
+public class Main {
+    public static void main(String[] args) {
+
+        // i++ için
+        int sayi=5;
+        System.out.println(sayi++);// 5 çıktısını verir
+        System.out.println(sayi);// 6 çıktısını verir
+
+        // ++i için
+        sayi=5;
+        System.out.println(++sayi);// 6 çıktısını verir
+        System.out.println(sayi);// 6 çıktısnı verir
+
+    }
+}
+
