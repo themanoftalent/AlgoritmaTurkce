@@ -1,0 +1,7 @@
+i++ ve ++i arasındaki fark;
+
+i++ post-increment olarak kullanılır. Bulunduğu ifadede orijinal i değeri kullanılır, ifade işlendikten sonra i değeri 1 arttırılır.
+
+++i ise pre-increment olarak kullanılır. Bulunduğu ifade işlenirken i değeri önce bir arttırılır ve bu yeni değeri kullanılır.
+
+postfix versiyonu (i++), tekli artı ve eksi operatörlerinden daha yüksek önceliğe sahiptir ve soldan sağa işlenir (left associative). prefix versiyonu (++i) ise tekli artı ve eksi ile aynı önceliğe sahiptir ve sağdan sola işlenir (right associative).

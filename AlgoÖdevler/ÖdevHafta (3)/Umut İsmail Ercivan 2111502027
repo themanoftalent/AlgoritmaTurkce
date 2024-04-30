@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class MultiplyTwoNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        
+        System.out.print("Birinci sayiyi girin: ");
+        double sayi1 = scanner.nextDouble();
+
+        
+        System.out.print("Ikinci sayiyi girin: ");
+        double sayi2 = scanner.nextDouble();
+
+        
+        double sonuc = sayi1 * sayi2;
+
+       
+        System.out.println("Girilen sayilarin carpimi: " + sonuc);
+
+        
+        scanner.close();
+    }
+}

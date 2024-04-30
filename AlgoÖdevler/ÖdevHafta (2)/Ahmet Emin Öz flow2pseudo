@@ -1,0 +1,11 @@
+start
+num degiskenine 150 degerini ver.
+
+      (num >= 0) ifadesi gecerliyken dongu
+          num degerini ekrana getir.
+          num degerini 2 azalt
+num degeri 0dan buyukse bu fonksiyonu en bastan baslat
+
+degilse fonsksiyonu bitir 
+
+end
