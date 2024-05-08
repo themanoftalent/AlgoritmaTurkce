@@ -1,0 +1,40 @@
+import java.util.Arrays;
+import java.util.Random;
+
+public class MonkeySort {
+    public static void main(String[] args) {
+        //sıralacak dizi
+        int[] arr = {5, 6, 2, 1, 9, 25, 3, 56};
+
+        System.out.println("Sıralı Liste" + Arrays.toString(arr));
+        
+        monkeySort(arr); // monkeySort fonksiyonunu çağır
+
+        System.out.println("Sıralanmış Liste" + Arrays.toString(arr));
+    }
+
+    //Normal bir fonksiyon oluştur
+    public static void monkeySort(int[] arr) { // bu bir fonksiyon
+        Random rand = new Random(); // random nesnesi yaratıldı
+        int uzunluk = arr.length; // liste uzunluğu elde edildi
+
+        while (!isSorted(arr, uzunluk)) { // listenin sıralanıp sıralanmadığını kontrol et
+            int index1 = rand.nextInt(uzunluk);
+            int index2 = rand.nextInt(uzunluk);
+
+            //yer değiştirme
+            int temp = arr[index1];
+            arr[index1] = arr[index2];
+            arr[index2] = temp;
+        }
+    }
+
+    public static boolean isSorted(int[] arr, int uzunluk) {
+        for (int i = 0; i < uzunluk - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
