@@ -1,0 +1,31 @@
+// 2111502015 Merve Cingöz
+
+package algoritma;
+
+public class Fibonacci {
+		    public static void main(String[] args) {
+		        int n = 16; //Fibonacci sayısı ,kaç adet istiyosak
+		        System.out.println("Fibonacci serisi:");
+		        for (int i = 0; i < n; i++) {
+		            System.out.print(fibonacci(i) + " ");
+
+
+		            long baslangicZamani = System.nanoTime();
+		            long bitisZamani = System.nanoTime();
+		            long calismaSuresi = bitisZamani - baslangicZamani;
+		            double sure = (double) calismaSuresi / 10000;
+		            System.out.println("Kodun calisma suresi: " + sure + " calisma suresi");
+		        }
+		        }
+
+
+		    public static int fibonacci(int n) {
+		        if (n <= 1)
+		            return n;
+		        else
+		            return fibonacci(n - 1) + fibonacci(n - 2);
+
+
+		    }
+
+	}
