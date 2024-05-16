@@ -1,0 +1,28 @@
+//2111502015 Merve Cingöz
+
+
+
+fonksiyon ikiliArama(dizi, hedef)
+
+  // Başlangıç arama sınırlarını ayarla
+  sol = 0
+  sag = diziUzunlugu(dizi) - 1
+
+  // Arama alanı bitene kadar döngü
+  hemen = sol <= sag
+    // Orta indeksi hesapla
+    orta = (sol + sag) / 2
+
+    // Hedef orta öğede bulunup bulunmadığını kontrol et
+    eğer dizi[orta] == hedef
+      döndür orta
+
+    // Hedef daha küçükse, sol yarıda ara
+    yoksa eğer dizi[orta] > hedef
+      sag = orta - 1
+
+    // Hedef daha büyükse, sağ yarıda ara
+    yoksa sol = orta + 1
+
+  // Hedef dizide bulunamadı
+  döndür -1 (veya bulunamadığını gösteren herhangi bir değer)
