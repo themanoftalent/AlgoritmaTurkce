@@ -1,0 +1,26 @@
+
+public class Fibonacci {
+
+	public static void main(String[] args)
+	{
+		long startingdata=System.nanoTime();
+		System.out.println(fibonacci(5));
+		long endingdata=System.nanoTime();
+		long duration=(endingdata-startingdata);
+		System.out.println("Çalışma süresi:"+duration);
+	}
+	
+	
+	public static int fibonacci(int n)
+	{
+		if(n<=1)
+		{
+			return 1;
+		}
+		
+		else
+		{
+			return fibonacci(n-1)+fibonacci(n-2);
+		}
+	}
+}
