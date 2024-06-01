@@ -1,0 +1,24 @@
+
+public class Main {
+    public static void main(String[] args) {
+        int a=0;
+        int b=1;
+        int sum=a+b;
+        int [] fibo = new int[15];
+
+
+
+        for(int i=0;i<10;i++){
+            fibo[i]=a;
+            fibo[i+1]=b;
+            int temp=a+b;
+            a=b;
+            b=temp;
+
+        }
+        for (int i=0;i<10;i++){
+            System.out.print(fibo[i]+" ");
+        }
+    }
+
+}
