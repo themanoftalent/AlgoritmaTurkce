@@ -1,0 +1,17 @@
+// 2211502039 AYŞEGÜL UÇAR
+
+En popüler olanlarından biri "Depth-First Search (DFS)" ve "Breadth-First Search (BFS)" algoritmalarıdır.
+
+Depth-First Search (DFS): Bu algoritma, bir dalı sonuna kadar arar, ardından geri dönüp diğer dalları arar. Yani, bir yol boyunca derine inmeye çalışır ve çıkmaz bir yol bulduğunda geri döner. DFS, bir yığıt (stack) veri yapısını kullanarak uygulanabilir.
+
+Breadth-First Search (BFS): BFS, labirentte tüm komşuları keşfetmeyi ve ardından bir sonraki adıma geçmeden önce o düzeydeki tüm komşuları keşfetmeyi amaçlar. Bu algoritma genellikle bir kuyruk (queue) veri yapısını kullanarak uygulanır.
+
+Hangi algoritmayı kullanacağınıza karar vermelisiniz. Eğer en kısa yolu bulmak istiyorsanız, BFS kullanabilirsiniz. Ancak, eğer labirentteki yolun derinliğini önemsiyorsanız, DFS daha uygun olabilir.
+
+Hangi algoritmayı seçerseniz seçin, temel olarak labirentin her bir hücresini bir düğüm olarak düşünebilir ve hücreler arasındaki geçişleri kenarlarla temsil edebilirsiniz. Sonra seçtiğiniz algoritmayı kullanarak başlangıç noktasından hedef noktaya giden bir yol bulabilirsiniz.
+
+
+
+
+
+
